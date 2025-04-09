@@ -39,7 +39,7 @@ namespace SportTeamsProg
             bool isProfessional = false;
             while (IsProfessionalResult == 0)
             {
-                Console.WriteLine("это профессиональная команда? (д/н)");
+                Console.WriteLine("это профессиональная команда? (Д/Н)");
                 var IsProfesionalInput = Console.ReadLine()!;
 
                 if (IsProfesionalInput == "д" || IsProfesionalInput == "Д")
