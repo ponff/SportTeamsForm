@@ -24,7 +24,7 @@ namespace SportTeamsProg
             foreach (var item in s)
             {
                 if (!char.IsDigit(item))
-                    return false; //если хоть один символ не число, то выкидываешь "ложь"
+                    return false; //если хоasdasdasdasdsadsadь один символ не число, то выкидываешь "ложь"
             }
             return true; //если ни разу не выбило в цикле, значит, все символы - это цифры
         }
